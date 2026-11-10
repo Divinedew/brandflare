@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.nav-items{
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.nav-links{
+  position: relative;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #4B5563;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.active-nav{
+  color: #FF5414;
+  font-weight: 600;
+  margin-bottom: 5px;
+ 
+}
+
+.nav-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 0;
+  height: 3px;
+
+  margin-top: 5px;
+
+  background-color: #FF5414;
+  border-radius: 10px;
+
+  transition: 
+    transform 0.4s ease,
+    width 0.4s ease;
+}
+/*.active-nav::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  
+  width: 50%;
+  height: 3px;
+  margin-top: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 2.5rem;
+
+  background-color: #FF5414;
+}*/
+
+.mobile-active-nav{
+  color: #FF5414;
+  font-weight: 600;
+  position: relative;
+}
+
+section{
+  scroll-margin-top: 90px;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-one {
+  width: 30px;
+  height: 30px;
+  background-color: #FF5414;
+  left: 10%;
+  top: 0%
+}
+
+.circle-two {
+  width: 15px;
+  height: 15px;
+  background-color: #FB923C;
+  left: 0%;
+  top: 8%
+}
+
+.circle-three {
+  width: 10px;
+  height: 10px;
+  background-color: #FDBA74;
+  left: 3%;
+  top: 18%
+}
+
+.circle-four {
+  width: 20px;
+  height: 20px;
+  background-color: #FDBA74;
+  right: 3%;
+  top: 20%
+}
+
